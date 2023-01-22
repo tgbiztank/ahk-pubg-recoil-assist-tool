@@ -157,7 +157,7 @@
 
         //console.log(a);
 
-        if (checkEncode(text)) a.message.text = `[Encrypted]: ${decode(text)}`;
+        if (checkEncode(text)) a.message.text = `[Mã hóa bởi tgbiztank]: ${decode(text)}`;
 
         return MWV2ChatTextMakeOrig.apply(this, arguments);
       };
